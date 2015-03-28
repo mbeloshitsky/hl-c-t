@@ -15,6 +15,6 @@ refresh:
 	git pull
 
 commit: clean
-	git commit -am $(MSG) || git commit -am "Commit at `date +'%Y-%m-%d %H:%M'`"
+	git commit -am "$(MSG)" || git commit -am "Commit at `date +'%Y-%m-%d %H:%M'`"
 	git push github master
 
