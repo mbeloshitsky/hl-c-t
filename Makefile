@@ -1,4 +1,6 @@
 
+ARGV=$1
+
 all:
 	make -C 01-helloworld
 
@@ -18,4 +20,7 @@ refresh:
 commit: clean
 	git commit -am $$1 || git commit -am "Commit at `date +'%Y-%m-%d %H:%M'`"
 	git push github master
+
+test:
+	echo $(ARGV)
 
