@@ -14,9 +14,12 @@ make install
 
 # Course plan
 
-01 - Hello World in C. Generic information about programming
-02 - C language base constructions: variable, operator, function
-03 - C language structural datatypes: array, structure
-04 - C preprocessor
-05 - Modules in C. Building big abstractions
-06 - 
+* 01 - Hello World in C. Generic information about programming
+* 02 - C language base constructions: variable, operator, function
+* 03 - C language structural datatypes: array, structure
+* 04 - C preprocessor
+* 05 - Modules in C. Building big abstractions
+* 06 - Pointers and pointer calculus
+* 07 - Memory management in C
+
+Language standard is C89.
