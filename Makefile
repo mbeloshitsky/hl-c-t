@@ -17,5 +17,5 @@ refresh:
 
 commit: clean
 	git commit -am "Commit at `date +'%Y-%m-%d %H:%M'`"
-	git push
+	git push github master
 
