@@ -9,6 +9,7 @@ install it on your VM). Open terminal and type theese commands sequentally
 ```
 sudo apt-get install git-core
 git clone https://github.com/mbeloshitsky/hl-c-t.git
+cd hl-c-t
 make install
 ```
 
