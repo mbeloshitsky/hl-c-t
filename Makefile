@@ -9,8 +9,7 @@ install: depends refresh
 depends:
 	sudo apt-get update
 	sudo apt-get install git-core vim build-essential -y
-	sudo dpkg -i ~/Downloads/sublime*.deb
-	git clone https://github.com/mbeloshitsky/hl-c-t.git
+	sudo dpkg -i Downloads/sublime*.deb
 
 refresh:
 	git pull github master
