@@ -10,9 +10,10 @@ depends:
 	sudo apt-get update
 	sudo apt-get install git-core vim build-essential -y
 	sudo dpkg -i ~/Downloads/sublime*.deb
+	git clone https://github.com/mbeloshitsky/hl-c-t.git
 
 refresh:
-	git pull
+	git pull github master
 
 commit: clean
 	git commit -am "$(MSG)" || git commit -am "Commit at `date +'%Y-%m-%d %H:%M'`"

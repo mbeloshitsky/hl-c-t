@@ -9,5 +9,5 @@
 
     // Hidden files are hidden
     "folder_exclude_patterns": 			[".*"],
-    file_exclude_patterns": 			[".*"]
+    "file_exclude_patterns": 			[".*"]
 }
