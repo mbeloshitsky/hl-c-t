@@ -24,3 +24,15 @@ make install
 * 07 - Memory management in C
 
 Language standard is C89.
+
+# The spirit of C
+
+In this course we keep out attention on technical aspects of C programming language. But also important
+to know it's authors intention, concept. Here it is
+
+* Trust the programmer.
+* Don’t prevent the programmer from doing what needs to be done. •Keep the language small and simple.
+* Provide only one way to do an operation.
+* Make it fast, even if it is not guaranteed to be portable.
+
+(Rationale for American National Standard for Information Systems – Programming Language – C, draft, p. 9)
